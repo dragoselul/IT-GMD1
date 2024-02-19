@@ -23,6 +23,7 @@ For ages from 16
 
 ### Player experience and Game POV
 - The game presents Ricardo and his dog companion, in his journey to save a kidnapped princess from a mysterious evil force unknown to human kind.
+- The game presents Ricardo and his dog companion, in his journey to save a kidnapped princess from a mysterious evil force unknown to human kind.
 - The player will be Ricardo, accompanied by his trusty companion, Doge
 - Being an unstopabble force
 - Every journey through the dungeon will give the player rewards for upgrading their character and increasing the odds of going further next time.
@@ -78,4 +79,4 @@ The combat will be either melee, ranged or terrain kills. The player will be abl
 </p>
 
 ### Sketch
-![alt text](<Dungeon Crawl: Ricardo's Revenge/Dungeon Crawl: Ricardo's Revenge.png>)
+![sketch located in the folder](<Dungeon_Crawl_Ricardo_Revenge/Dungeon_Crawl_Ricardo_Revenge.png>)
