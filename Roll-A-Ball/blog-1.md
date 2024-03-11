@@ -15,12 +15,12 @@ Before starting I had very minimal amount of experience with unity, only doing s
 - Dragos-Daniel Bonaparte
 <p> Started by creating the play area, which was easier than expected. I understood now the reason behind creating an empty object when aligning the walls of the platform</p>
 
-![empty object "walls"](/Roll-A-Ball/images/image-dragos.png)
+![empty object "walls"](images\image-dragos.png)
 
 <p>It's very cool that objects can become children of another object, I consider this nice since you can give the parent some properties, and that will apply to all of its children. (Of course this can be done with tags also)
 </p>
 
-![alt text](/Roll-A-Ball/images/image-1-dragos.png)
+![alt text](images\image-1-dragos.png)
 
 <p> When it comes to scripting, the methods are intuitive enough to understand (at least slightly) what they do. </p>
 
@@ -52,7 +52,7 @@ I don't think there is a lot more to say about  this games as it is very simple,
 <p>The setup part was very easy, it was just to create a new project and add a floor and a game object for a player and it was something that I was familiar with before starting and when I finished the first part it looked something like this:
 </p>
 
-![alt text](/Roll-A-Ball/images/image.png)
+![alt text](images/image.png)
 
 <h4>Moving the Player</h4>
 
@@ -81,7 +81,7 @@ void OnMove (InputValue movementValue)
 
 <p>I also think that it is really cool that we can set the value of speed for movement inside of unity instead of hard coding it in the script</p>
 
-![alt text](/Roll-A-Ball/images/image-3.png)
+![alt text](images/image-3.png)
 
 <p>This part of the tutorial was not too hard, but it seems like its the case for the whole tutorial since it is written very clearly</p>
 
@@ -119,13 +119,13 @@ void LateUpdate()
 <p>In this part It was just creating some walls and also making them solid so the player has a hard time to move out of the game area, also this part showed how to duplicate components so it is faster to do parts which are basically the same but just need to be in different places, by the end it looked like this:
 </p>
 
-![alt text](/Roll-A-Ball/images/image-1.png)
+![alt text](images/image-1.png)
 
 <h4>Creating Collectibles</h4>
 
 <p>In this part was how to make collectibles in the game and how to make objects rotate and also showed how to work with prefabs. By the end it looked like this but the collectables were not able to be picked up</p>
 
-![alt text](/Roll-A-Ball/images/image-2.png)
+![alt text](images/image-2.png)
 
 <h4>Detecting Collisions with Collectibles</h4>
 
@@ -135,7 +135,7 @@ void LateUpdate()
 
 <p>In this part we learned how to make the game count the score and display it on the screen. It showed how to put text on the players view and update it</p>
 
-![alt text](/Roll-A-Ball/images/image-4.png)
+![alt text](images/image-4.png)
 
 <h4>Building the Game</h4>
 
