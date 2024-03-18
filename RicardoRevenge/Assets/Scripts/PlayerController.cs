@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float speed = 10f;
     [SerializeField] private float jumpStrength = 2f;
     private Rigidbody2D rb;
+    private Animator an;
     private float movementX;
     private float movementY;
     private float stopJumping;
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        an = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movement = new Vector2(movementX, rb.velocity.y) * speed;
         rb.velocity = new Vector2(movement.x, rb.velocity.y);
+        an.SetFloat("XInput", movementX);
 
         // Apply gravity
         if (!onGround)
